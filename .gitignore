@@ -1,0 +1,150 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+*.swp
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web/dart_service_worker.js
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be committed to your repository
+# Uncomment this line if you want to checked-in VS Code launch configuration
+# .vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/linux/flutter/ephemeral/generated_plugin_registrant.cc
+/linux/flutter/ephemeral/
+/macos/Flutter/Flutter-Debug.xcconfig
+/macos/Flutter/Flutter-Release.xcconfig
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Flutter/ephemeral/
+/macos/Flutter/Pods/
+/macos/Podfile.lock
+/windows/flutter/ephemeral/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Android
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/.gradle
+**/android/**/.gradle/
+**/android/**/gradle-wrapper.jar
+**/android/**/gradle-wrapper.properties
+**/android/**/local.properties
+**/android/**/key.properties
+**/android/**/*.jks
+**/android/**/*.keystore
+**/android/**/.DS_Store
+**/android/**/captures/
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/.dart_tool/
+**/android/.gradle/
+**/android/local.properties
+**/android/app/release/
+
+# iOS
+**/ios/**/*.app/*
+**/ios/**/*.framework/*
+**/ios/**/*.xcarchive
+**/ios/**/*.xcframework
+**/ios/**/*.zip
+**/ios/**/*.tar.gz
+**/ios/**/.DS_Store
+**/ios/**/.flutter-status
+**/ios/**/.packages
+**/ios/**/Pods
+**/ios/**/Podfile.lock
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter-Debug.xcconfig
+**/ios/Flutter/Flutter-Release.xcconfig
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/.symlinks/
+**/ios/.dart_tool/
+**/ios/.gradle/
+**/ios/Flutter/flutter_export_environment.sh
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+**/macos/Podfile.lock
+
+# web
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# iOS/macOS/Linux ignores all files in the Pods directory created when using CocoaPods
+**/Pods/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# VS Code
+.vscode/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.config.dart
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Build outputs
+build/
+*.apk
+*.aab
+*.ipa
+*.dmg
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
